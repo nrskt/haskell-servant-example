@@ -1,0 +1,8 @@
+Description: (Describe migration here.)
+Created: 2016-11-20 06:56:55.340303 UTC
+Depends:
+Apply: |
+  CREATE TABLE "Users" (
+      id UUID PRIMARY KEY,
+      name TEXT NOT NULL
+  );

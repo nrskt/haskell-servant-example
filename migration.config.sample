@@ -1,0 +1,5 @@
+DBM_DATABASE_TYPE = "postgresql"
+DBM_DATABASE = "postgresql://<portgres_user>@<portgres_host>:5432/<db_name>"
+DBM_MIGRATION_STORE = "./migrations"
+DBM_LINEAR_MIGRATIONS = off
+DBM_TIMESTAMP_FILENAMES = off
